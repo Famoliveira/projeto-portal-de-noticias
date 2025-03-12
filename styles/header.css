@@ -1,0 +1,37 @@
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+#primary {
+  padding-block: 20px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-block: 4px;
+  }
+
+  div:nth-child(1) {
+    justify-self: start;
+  }
+
+  div:nth-child(2) {
+    justify-self: center;
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  padding-block: 14px;
+  justify-content: space-between;
+
+  /* borda em cima e em baixo */
+  border: 1px solid var(--stroke-color);
+  border-inline: none;
+}

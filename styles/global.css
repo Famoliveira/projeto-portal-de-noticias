@@ -47,3 +47,13 @@ a:hover {
 h1, h2, h3 {
   font: inherit;
 }
+
+/* first utility class */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
